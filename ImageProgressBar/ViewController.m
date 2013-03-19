@@ -57,7 +57,7 @@
     [self.view addSubview:loadingButton];
 }
 
--(void)avanceLoadingBorFor:(ImageProgressBar *)bar{
+-(void)avanceLoadingFor:(ImageProgressBar *)bar{
     if(bar.progress == 100){
         [bar setProgress:0];
     }else{
@@ -66,10 +66,10 @@
 }
 
 -(void) avanceAllLoadingBar: (NSTimer *) theTimer {
-    [self avanceLoadingBorFor:self.androidProgress];
-    [self avanceLoadingBorFor:self.linearProgress];
-    [self avanceLoadingBorFor:self.smallToHighProgress];
-    [self avanceLoadingBorFor:self.androidLTRProgress];
+    [self avanceLoadingFor:self.androidProgress];
+    [self avanceLoadingFor:self.linearProgress];
+    [self avanceLoadingFor:self.smallToHighProgress];
+    [self avanceLoadingFor:self.androidLTRProgress];
 }
 
 -(void)loadingButtonTouch{

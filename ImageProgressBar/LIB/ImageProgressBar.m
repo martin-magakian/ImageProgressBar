@@ -65,10 +65,6 @@
     [full setProgress:0];
 }
 
-- (void) display:(BOOL) status{
-    [self setHidden:!status];
-}
-
 -(void) dealloc{
     [empty release];
     [feed release];
