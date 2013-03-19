@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B01C19616F8623600FA3776 /* ImageProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B01C19316F8623600FA3776 /* ImageProgressBar.m */; };
+		5B01C19716F8623600FA3776 /* ImageResizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B01C19516F8623600FA3776 /* ImageResizer.m */; };
+		5B01C1D516F874BC00FA3776 /* avancement_bar_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B01C1CC16F874BC00FA3776 /* avancement_bar_0@2x.png */; };
+		5B01C1D616F874BC00FA3776 /* avancement_bar_100@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B01C1CD16F874BC00FA3776 /* avancement_bar_100@2x.png */; };
+		5B01C1D716F874BC00FA3776 /* avancement_bar_99@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B01C1CE16F874BC00FA3776 /* avancement_bar_99@2x.png */; };
+		5B01C1D816F874BC00FA3776 /* avancement_jauge_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B01C1CF16F874BC00FA3776 /* avancement_jauge_0@2x.png */; };
+		5B01C1D916F874BC00FA3776 /* avancement_jauge_100@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B01C1D016F874BC00FA3776 /* avancement_jauge_100@2x.png */; };
+		5B01C1DA16F874BC00FA3776 /* avancement_jauge_99@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B01C1D116F874BC00FA3776 /* avancement_jauge_99@2x.png */; };
+		5B01C1DB16F874BC00FA3776 /* avancement_logo_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B01C1D216F874BC00FA3776 /* avancement_logo_0@2x.png */; };
+		5B01C1DC16F874BC00FA3776 /* avancement_logo_100@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B01C1D316F874BC00FA3776 /* avancement_logo_100@2x.png */; };
+		5B01C1DD16F874BC00FA3776 /* avancement_logo_99@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B01C1D416F874BC00FA3776 /* avancement_logo_99@2x.png */; };
+		5B01C1E016F874E400FA3776 /* AndroidProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B01C1DF16F874E400FA3776 /* AndroidProgressBar.m */; };
+		5B01C1E316F8750300FA3776 /* LinearProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B01C1E216F8750300FA3776 /* LinearProgressBar.m */; };
+		5B01C1EA16F8759700FA3776 /* SmallToHighProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B01C1E916F8759700FA3776 /* SmallToHighProgressBar.m */; };
+		5B01C1ED16F879AF00FA3776 /* AndroidLTRProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B01C1EC16F879AF00FA3776 /* AndroidLTRProgress.m */; };
+		5B8F4A6816F85FBB00E3756A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8F4A6716F85FBB00E3756A /* UIKit.framework */; };
+		5B8F4A6A16F85FBB00E3756A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8F4A6916F85FBB00E3756A /* Foundation.framework */; };
+		5B8F4A6C16F85FBB00E3756A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8F4A6B16F85FBB00E3756A /* CoreGraphics.framework */; };
+		5B8F4A7216F85FBB00E3756A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B8F4A7016F85FBB00E3756A /* InfoPlist.strings */; };
+		5B8F4A7416F85FBB00E3756A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F4A7316F85FBB00E3756A /* main.m */; };
+		5B8F4A7816F85FBB00E3756A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F4A7716F85FBB00E3756A /* AppDelegate.m */; };
+		5B8F4A7A16F85FBB00E3756A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8F4A7916F85FBB00E3756A /* Default.png */; };
+		5B8F4A7C16F85FBB00E3756A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8F4A7B16F85FBB00E3756A /* Default@2x.png */; };
+		5B8F4A7E16F85FBB00E3756A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8F4A7D16F85FBB00E3756A /* Default-568h@2x.png */; };
+		5B8F4A8116F85FBB00E3756A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F4A8016F85FBB00E3756A /* ViewController.m */; };
+		5B8F4A8416F85FBB00E3756A /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B8F4A8216F85FBB00E3756A /* ViewController_iPhone.xib */; };
+		5B8F4A8716F85FBB00E3756A /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B8F4A8516F85FBB00E3756A /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B01C19216F8623600FA3776 /* ImageProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProgressBar.h; sourceTree = "<group>"; };
+		5B01C19316F8623600FA3776 /* ImageProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageProgressBar.m; sourceTree = "<group>"; };
+		5B01C19416F8623600FA3776 /* ImageResizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageResizer.h; sourceTree = "<group>"; };
+		5B01C19516F8623600FA3776 /* ImageResizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageResizer.m; sourceTree = "<group>"; };
+		5B01C1CC16F874BC00FA3776 /* avancement_bar_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avancement_bar_0@2x.png"; sourceTree = "<group>"; };
+		5B01C1CD16F874BC00FA3776 /* avancement_bar_100@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avancement_bar_100@2x.png"; sourceTree = "<group>"; };
+		5B01C1CE16F874BC00FA3776 /* avancement_bar_99@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avancement_bar_99@2x.png"; sourceTree = "<group>"; };
+		5B01C1CF16F874BC00FA3776 /* avancement_jauge_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avancement_jauge_0@2x.png"; sourceTree = "<group>"; };
+		5B01C1D016F874BC00FA3776 /* avancement_jauge_100@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avancement_jauge_100@2x.png"; sourceTree = "<group>"; };
+		5B01C1D116F874BC00FA3776 /* avancement_jauge_99@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avancement_jauge_99@2x.png"; sourceTree = "<group>"; };
+		5B01C1D216F874BC00FA3776 /* avancement_logo_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avancement_logo_0@2x.png"; sourceTree = "<group>"; };
+		5B01C1D316F874BC00FA3776 /* avancement_logo_100@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avancement_logo_100@2x.png"; sourceTree = "<group>"; };
+		5B01C1D416F874BC00FA3776 /* avancement_logo_99@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avancement_logo_99@2x.png"; sourceTree = "<group>"; };
+		5B01C1DE16F874E400FA3776 /* AndroidProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndroidProgressBar.h; sourceTree = "<group>"; };
+		5B01C1DF16F874E400FA3776 /* AndroidProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndroidProgressBar.m; sourceTree = "<group>"; };
+		5B01C1E116F8750300FA3776 /* LinearProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearProgressBar.h; sourceTree = "<group>"; };
+		5B01C1E216F8750300FA3776 /* LinearProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinearProgressBar.m; sourceTree = "<group>"; };
+		5B01C1E816F8759700FA3776 /* SmallToHighProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallToHighProgressBar.h; sourceTree = "<group>"; };
+		5B01C1E916F8759700FA3776 /* SmallToHighProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallToHighProgressBar.m; sourceTree = "<group>"; };
+		5B01C1EB16F879AF00FA3776 /* AndroidLTRProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndroidLTRProgress.h; sourceTree = "<group>"; };
+		5B01C1EC16F879AF00FA3776 /* AndroidLTRProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndroidLTRProgress.m; sourceTree = "<group>"; };
+		5B8F4A6316F85FBB00E3756A /* ImageProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8F4A6716F85FBB00E3756A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B8F4A6916F85FBB00E3756A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B8F4A6B16F85FBB00E3756A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B8F4A6F16F85FBB00E3756A /* ImageProgressBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageProgressBar-Info.plist"; sourceTree = "<group>"; };
+		5B8F4A7116F85FBB00E3756A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B8F4A7316F85FBB00E3756A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B8F4A7516F85FBB00E3756A /* ImageProgressBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageProgressBar-Prefix.pch"; sourceTree = "<group>"; };
+		5B8F4A7616F85FBB00E3756A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B8F4A7716F85FBB00E3756A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B8F4A7916F85FBB00E3756A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5B8F4A7B16F85FBB00E3756A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5B8F4A7D16F85FBB00E3756A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5B8F4A7F16F85FBB00E3756A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B8F4A8016F85FBB00E3756A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B8F4A8316F85FBB00E3756A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		5B8F4A8616F85FBB00E3756A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B8F4A6016F85FBA00E3756A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8F4A6816F85FBB00E3756A /* UIKit.framework in Frameworks */,
+				5B8F4A6A16F85FBB00E3756A /* Foundation.framework in Frameworks */,
+				5B8F4A6C16F85FBB00E3756A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B01C19116F8623600FA3776 /* LIB */ = {
+			isa = PBXGroup;
+			children = (
+				5B01C19216F8623600FA3776 /* ImageProgressBar.h */,
+				5B01C19316F8623600FA3776 /* ImageProgressBar.m */,
+				5B01C19416F8623600FA3776 /* ImageResizer.h */,
+				5B01C19516F8623600FA3776 /* ImageResizer.m */,
+			);
+			path = LIB;
+			sourceTree = "<group>";
+		};
+		5B01C1CB16F874BC00FA3776 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5B01C1CC16F874BC00FA3776 /* avancement_bar_0@2x.png */,
+				5B01C1CD16F874BC00FA3776 /* avancement_bar_100@2x.png */,
+				5B01C1CE16F874BC00FA3776 /* avancement_bar_99@2x.png */,
+				5B01C1CF16F874BC00FA3776 /* avancement_jauge_0@2x.png */,
+				5B01C1D016F874BC00FA3776 /* avancement_jauge_100@2x.png */,
+				5B01C1D116F874BC00FA3776 /* avancement_jauge_99@2x.png */,
+				5B01C1D216F874BC00FA3776 /* avancement_logo_0@2x.png */,
+				5B01C1D316F874BC00FA3776 /* avancement_logo_100@2x.png */,
+				5B01C1D416F874BC00FA3776 /* avancement_logo_99@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5B01C1E716F8752800FA3776 /* LoadingBar */ = {
+			isa = PBXGroup;
+			children = (
+				5B01C1E116F8750300FA3776 /* LinearProgressBar.h */,
+				5B01C1E216F8750300FA3776 /* LinearProgressBar.m */,
+				5B01C1E816F8759700FA3776 /* SmallToHighProgressBar.h */,
+				5B01C1E916F8759700FA3776 /* SmallToHighProgressBar.m */,
+				5B01C1DE16F874E400FA3776 /* AndroidProgressBar.h */,
+				5B01C1DF16F874E400FA3776 /* AndroidProgressBar.m */,
+				5B01C1EB16F879AF00FA3776 /* AndroidLTRProgress.h */,
+				5B01C1EC16F879AF00FA3776 /* AndroidLTRProgress.m */,
+			);
+			name = LoadingBar;
+			sourceTree = "<group>";
+		};
+		5B8F4A5816F85FBA00E3756A = {
+			isa = PBXGroup;
+			children = (
+				5B8F4A6D16F85FBB00E3756A /* ImageProgressBar */,
+				5B8F4A6616F85FBB00E3756A /* Frameworks */,
+				5B8F4A6416F85FBB00E3756A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B8F4A6416F85FBB00E3756A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B8F4A6316F85FBB00E3756A /* ImageProgressBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B8F4A6616F85FBB00E3756A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B8F4A6716F85FBB00E3756A /* UIKit.framework */,
+				5B8F4A6916F85FBB00E3756A /* Foundation.framework */,
+				5B8F4A6B16F85FBB00E3756A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B8F4A6D16F85FBB00E3756A /* ImageProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				5B01C1E716F8752800FA3776 /* LoadingBar */,
+				5B01C1CB16F874BC00FA3776 /* Images */,
+				5B01C19116F8623600FA3776 /* LIB */,
+				5B8F4A7616F85FBB00E3756A /* AppDelegate.h */,
+				5B8F4A7716F85FBB00E3756A /* AppDelegate.m */,
+				5B8F4A7F16F85FBB00E3756A /* ViewController.h */,
+				5B8F4A8016F85FBB00E3756A /* ViewController.m */,
+				5B8F4A8216F85FBB00E3756A /* ViewController_iPhone.xib */,
+				5B8F4A8516F85FBB00E3756A /* ViewController_iPad.xib */,
+				5B8F4A6E16F85FBB00E3756A /* Supporting Files */,
+			);
+			path = ImageProgressBar;
+			sourceTree = "<group>";
+		};
+		5B8F4A6E16F85FBB00E3756A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B8F4A6F16F85FBB00E3756A /* ImageProgressBar-Info.plist */,
+				5B8F4A7016F85FBB00E3756A /* InfoPlist.strings */,
+				5B8F4A7316F85FBB00E3756A /* main.m */,
+				5B8F4A7516F85FBB00E3756A /* ImageProgressBar-Prefix.pch */,
+				5B8F4A7916F85FBB00E3756A /* Default.png */,
+				5B8F4A7B16F85FBB00E3756A /* Default@2x.png */,
+				5B8F4A7D16F85FBB00E3756A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B8F4A6216F85FBA00E3756A /* ImageProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B8F4A8A16F85FBB00E3756A /* Build configuration list for PBXNativeTarget "ImageProgressBar" */;
+			buildPhases = (
+				5B8F4A5F16F85FBA00E3756A /* Sources */,
+				5B8F4A6016F85FBA00E3756A /* Frameworks */,
+				5B8F4A6116F85FBA00E3756A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageProgressBar;
+			productName = ImageProgressBar;
+			productReference = 5B8F4A6316F85FBB00E3756A /* ImageProgressBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B8F4A5A16F85FBA00E3756A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "martin magakian";
+			};
+			buildConfigurationList = 5B8F4A5D16F85FBA00E3756A /* Build configuration list for PBXProject "ImageProgressBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B8F4A5816F85FBA00E3756A;
+			productRefGroup = 5B8F4A6416F85FBB00E3756A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B8F4A6216F85FBA00E3756A /* ImageProgressBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B8F4A6116F85FBA00E3756A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8F4A7216F85FBB00E3756A /* InfoPlist.strings in Resources */,
+				5B8F4A7A16F85FBB00E3756A /* Default.png in Resources */,
+				5B8F4A7C16F85FBB00E3756A /* Default@2x.png in Resources */,
+				5B8F4A7E16F85FBB00E3756A /* Default-568h@2x.png in Resources */,
+				5B8F4A8416F85FBB00E3756A /* ViewController_iPhone.xib in Resources */,
+				5B8F4A8716F85FBB00E3756A /* ViewController_iPad.xib in Resources */,
+				5B01C1D516F874BC00FA3776 /* avancement_bar_0@2x.png in Resources */,
+				5B01C1D616F874BC00FA3776 /* avancement_bar_100@2x.png in Resources */,
+				5B01C1D716F874BC00FA3776 /* avancement_bar_99@2x.png in Resources */,
+				5B01C1D816F874BC00FA3776 /* avancement_jauge_0@2x.png in Resources */,
+				5B01C1D916F874BC00FA3776 /* avancement_jauge_100@2x.png in Resources */,
+				5B01C1DA16F874BC00FA3776 /* avancement_jauge_99@2x.png in Resources */,
+				5B01C1DB16F874BC00FA3776 /* avancement_logo_0@2x.png in Resources */,
+				5B01C1DC16F874BC00FA3776 /* avancement_logo_100@2x.png in Resources */,
+				5B01C1DD16F874BC00FA3776 /* avancement_logo_99@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B8F4A5F16F85FBA00E3756A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8F4A7416F85FBB00E3756A /* main.m in Sources */,
+				5B8F4A7816F85FBB00E3756A /* AppDelegate.m in Sources */,
+				5B8F4A8116F85FBB00E3756A /* ViewController.m in Sources */,
+				5B01C19616F8623600FA3776 /* ImageProgressBar.m in Sources */,
+				5B01C19716F8623600FA3776 /* ImageResizer.m in Sources */,
+				5B01C1E016F874E400FA3776 /* AndroidProgressBar.m in Sources */,
+				5B01C1E316F8750300FA3776 /* LinearProgressBar.m in Sources */,
+				5B01C1EA16F8759700FA3776 /* SmallToHighProgressBar.m in Sources */,
+				5B01C1ED16F879AF00FA3776 /* AndroidLTRProgress.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B8F4A7016F85FBB00E3756A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B8F4A7116F85FBB00E3756A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B8F4A8216F85FBB00E3756A /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B8F4A8316F85FBB00E3756A /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		5B8F4A8516F85FBB00E3756A /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B8F4A8616F85FBB00E3756A /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B8F4A8816F85FBB00E3756A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B8F4A8916F85FBB00E3756A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B8F4A8B16F85FBB00E3756A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageProgressBar/ImageProgressBar-Prefix.pch";
+				INFOPLIST_FILE = "ImageProgressBar/ImageProgressBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B8F4A8C16F85FBB00E3756A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageProgressBar/ImageProgressBar-Prefix.pch";
+				INFOPLIST_FILE = "ImageProgressBar/ImageProgressBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B8F4A5D16F85FBA00E3756A /* Build configuration list for PBXProject "ImageProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8F4A8816F85FBB00E3756A /* Debug */,
+				5B8F4A8916F85FBB00E3756A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B8F4A8A16F85FBB00E3756A /* Build configuration list for PBXNativeTarget "ImageProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8F4A8B16F85FBB00E3756A /* Debug */,
+				5B8F4A8C16F85FBB00E3756A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B8F4A5A16F85FBA00E3756A /* Project object */;
+}
