@@ -23,7 +23,7 @@ The second on:
 
 ![progress bar feeding](https://raw.github.com/martin-magakian/ImageProgressBar/master/ImageProgressBar/Images/avancement_bar_99@2x.png)
 
-If you want you can change the last displayed image:
+If you want you can change the last displayed image for 100%:
 
 ![progress bar full](https://raw.github.com/martin-magakian/ImageProgressBar/master/ImageProgressBar/Images/avancement_bar_100@2x.png)
 
