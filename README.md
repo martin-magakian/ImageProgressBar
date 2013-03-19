@@ -4,6 +4,7 @@ Image Progress Bar
 create your custom progress bar using only few images.
 
 Some exemples you can create:
+
 ![progress bar exemples](https://raw.github.com/martin-magakian/ImageProgressBar/master/exemples.png)
 
 
@@ -15,12 +16,15 @@ How to use
 You need to create a minimum of two pictures.
 
 The First one:
+
 ![progress bar empty](https://raw.github.com/martin-magakian/ImageProgressBar/master/ImageProgressBar/Images/avancement_bar_0@2x.png)
 
 The second on:
+
 ![progress bar feeding](https://raw.github.com/martin-magakian/ImageProgressBar/master/ImageProgressBar/Images/avancement_bar_99@2x.png)
 
 If you want you can change the last displayed image:
+
 ![progress bar full](https://raw.github.com/martin-magakian/ImageProgressBar/master/ImageProgressBar/Images/avancement_bar_100@2x.png)
 
 
