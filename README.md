@@ -5,7 +5,7 @@ create your custom progress bar using only few images.
 
 Some exemples you can create:
 
-![progress bar exemples](/README_src/loading.gif)
+![progress bar exemples](/README_src/loading2.gif)
 
 
 How to use
