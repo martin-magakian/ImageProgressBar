@@ -25,22 +25,22 @@
     [super viewDidLoad];
 	
     AndroidProgressBar *android = [[[AndroidProgressBar alloc] init] autorelease];
-    [android setProgress:35];
+    [android setProgress:0];
     android.frame = CGRectMake(20, android.frame.origin.y, android.frame.size.width, android.frame.size.height);
     [self.view addSubview:android];
     
     LinearProgressBar *linear = [[[LinearProgressBar alloc] init] autorelease];
-    [linear setProgress:60];
+    [linear setProgress:0];
     linear.frame = CGRectMake(20, android.frame.origin.y+android.frame.size.height+PADDING_BOTTOM_PROGRESS, linear.frame.size.width, linear.frame.size.height);
     [self.view addSubview:linear];
     
     SmallToHighProgressBar *smallToHigh = [[[SmallToHighProgressBar alloc] init] autorelease];
-    [smallToHigh setProgress:80];
+    [smallToHigh setProgress:0];
     smallToHigh.frame = CGRectMake(20, linear.frame.origin.y+linear.frame.size.height+PADDING_BOTTOM_PROGRESS, smallToHigh.frame.size.width, smallToHigh.frame.size.height);
     [self.view addSubview:smallToHigh];
     
     AndroidLTRProgress *androidLTR = [[[AndroidLTRProgress alloc] init] autorelease];
-    [androidLTR setProgress:100];
+    [androidLTR setProgress:0];
     androidLTR.frame = CGRectMake(20, smallToHigh.frame.origin.y+smallToHigh.frame.size.height+PADDING_BOTTOM_PROGRESS, androidLTR.frame.size.width, androidLTR.frame.size.height);
     [self.view addSubview:androidLTR];
     
@@ -75,7 +75,7 @@
 -(void)loadingButtonTouch{
     [loadingButton setHidden:YES];
     
-    timer = [NSTimer scheduledTimerWithTimeInterval: 0.2 target:self selector:@selector(avanceAllLoadingBar:) userInfo:nil repeats: YES];
+    timer = [NSTimer scheduledTimerWithTimeInterval: 0.020 target:self selector:@selector(avanceAllLoadingBar:) userInfo:nil repeats: YES];
 }
 
 -(void) dealloc{

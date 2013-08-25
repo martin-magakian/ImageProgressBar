@@ -5,7 +5,7 @@ create your custom progress bar using only few images.
 
 Some exemples you can create:
 
-![progress bar exemples](https://raw.github.com/martin-magakian/ImageProgressBar/master/exemples.png)
+![progress bar exemples](/README_src/loading.gif)
 
 
 How to use
@@ -63,9 +63,18 @@ You can also choose from bottom to top.
 Contact
 =========
 Developed by Martin Magakian
+
 dev.martin.magakian@gmail.com
+
+for [doduck prototype (en)](http://doduck.com/)
+
+pour [doduck prototype (fr)](http://doduck.fr/)
+
+
 
 
 License
 =========
 MIT License (MIT)
+
+![githalytics.com alpha](https://cruel-carlota.pagodabox.com/cfbdaae73bd120086db9837bd8817173 "githalytics.com")
