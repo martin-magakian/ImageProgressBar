@@ -1,5 +1,7 @@
 Image Progress Bar
 ================
+by [Anomaly Detection](https://anomaly.io)
+
 
 create your custom progress bar using only few images.
 
@@ -77,5 +79,5 @@ License
 =========
 MIT License (MIT)
 
-by [Anomaly Detection](https://anomaly.io)
+
 
